@@ -20,14 +20,14 @@ In a world where food allergies are a growing concern, this project aims to use 
 | 4 | Paper writing (Overleaf), GitHub final polish |
 
 ## 🗄️ Structure
-"""
+```
 FoodAI-Classifier/
 ├── data/
 ├── models/
 ├── notebooks/
 ├── paper/
 └── README.md
-"""
+```
 ## 📁 Dataset
 - [Food-101 dataset](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
 - Additional tagging for common allergens (manual/assisted)
