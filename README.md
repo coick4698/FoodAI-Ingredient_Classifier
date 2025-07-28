@@ -1,17 +1,20 @@
-# 🍱 Food Ingredient Classification AI
+# 🛑 Food Allergy & Dietary Restriction Alert System using Image Classification
 
-A 4-week ISS research project using CNN-based image classification to identify ingredients in food photos and detect allergy-related components.
+A 4-week ISS research project that leverages CNN-based image classification to identify food items from photos and infer potential allergenic or restricted ingredients based on pre-defined mappings.
 
 ## 🔍 Motivation
-In a world where food allergies are a growing concern, this project aims to use AI to analyze food images and automatically detect potential allergens. It also aims to recommend food items that align with a user's ingredient preferences and dietary restirctions such as vegetarianism or religious beliefs.
+
+In a world where food allergies and dietary restrictions are becoming increasingly important, this project aims to use AI to recognize food items in images and automatically alert users if they may contain ingredients that are harmful or unwanted. This includes common allergens as well as ingredients avoided for ethical (e.g. vegetarianism) or religious (e.g. halal/kosher) reasons.
 
 ## 🎯 Objectives
-- Classify visible ingredients in food images (multi-label classification)
-- Detect if any common allergens are present
-- Recommend food items based on user-preferred ingredients
-- Identify ingredients that may conflict with dietary restirctions such as vegetarianism or religious practices
-- Build a clean model pipeline using CNN and Food-101 dataset
-- Visualize model attention
+
+- Classify food items from images using CNN-based models (single-label classification)
+- Infer potential allergens or restricted ingredients based on the predicted food class
+- Alert users when food items may contain ingredients they wish to avoid (e.g., peanut, pork, shellfish)
+- Support dietary profiles including allergies, vegetarianism, and religious food restrictions
+- Visualize model attention using Grad-CAM or similar techniques
+- Use Food-101 dataset and predefined ingredient mappings for evaluation
+
 
 ## 🗓️ Timeline (4 weeks)
 | Week | Tasks |
