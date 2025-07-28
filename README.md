@@ -3,11 +3,13 @@
 A 4-week ISS research project using CNN-based image classification to identify ingredients in food photos and detect allergy-related components.
 
 ## 🔍 Motivation
-In a world where food allergies are a growing concern, this project aims to use AI to analyze food images and automatically detect potential allergens. Also, to recommend food items that contain a user's preferred ingredients based on multi-label classification results.
+In a world where food allergies are a growing concern, this project aims to use AI to analyze food images and automatically detect potential allergens. It also aims to recommend food items that align with a user's ingredient preferences and dietary restirctions such as vegetarianism or religious beliefs.
 
 ## 🎯 Objectives
 - Classify visible ingredients in food images (multi-label classification)
 - Detect if any common allergens are present
+- Recommend food items based on user-preferred ingredients
+- Identify ingredients that may conflict with dietary restirctions such as vegetarianism or religious practices
 - Build a clean model pipeline using CNN and Food-101 dataset
 - Visualize model attention
 
